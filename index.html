@@ -1,132 +1,128 @@
-    <!DOCTYPE html>   
-    <html lang="en">  
-    <head>  
+        <!DOCTYPE html>
+    <html lang="en">
 
-    <title>Alex's Website</title>  
-    <meta charset="utf-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+      <head>
 
-    <style>  
-    /* Remove the navbar's default margin-bottom and rounded borders */   
+        <title>Alex's Website</title>
 
-    h1 {  
-       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet Ms'  
-       font-size: 200px;  
-       color: mediumslateblue;  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    }  
-    .navbar {  
-    margin-bottom: 0;
-    border-radius: 0;  
+        <style>
+          /* Remove the navbar's default margin-bottom and rounded borders */
 
-    }  
+          h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet Ms'
+              font-size: 200px;
+            color: mediumslateblue;
 
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */  
+          }
 
-    .row.content {height: 450px}  
+          .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
 
-    /* Set gray background color and 100% height */  
+          }
 
-    .sidenav {  
+          /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 
-    padding-top: 20px;  
+          .row.content {
+            height: 450px
+          }
 
-    background-color: #f1f1f1;  
+          /* Set gray background color and 100% height */
 
-    height: 100%;    
-    }  
+          .sidenav {
 
-    /* Set black background color, white text and some padding */  
+            padding-top: 20px;
 
-    footer {  
-    background-color: #555;  
-    color: white;  
-    padding: 15px;  
-    }  
-    /* On small screens, set height to 'auto' for sidenav and grid */  
+            background-color: #f1f1f1;
 
-    @media screen and (max-width: 767px) {  
+            height: 100%;
+          }
 
-    .sidenav {  
-    height: auto;  
-    padding: 15px;  
+          /* Set black background color, white text and some padding */
 
-    }  
-    .row.content {height:auto;}     
+          footer {
+            background-color: #555;
+            color: black;
+            padding; 15px
 
-    }  
-    footer {
-      text-align: bottom;  
-      padding: 8px;  
-      background-color: Black;  
-      color: white;  
-    }  
+          }
 
-    button {  
-      border: none;
-      color: Red;  
-      padding: 8px 16px;
-      text-align: center;  
-      text-decoration: none;  
-      display: inline-block;  
-      font-size: 16px;  
-      margin: 4px 2px;  
-      cursor: pointer;  
-    }  
+          /* On small screens, set height to 'auto' for sidenav and grid */
 
-    </style>  
-    </head>  
-    <body>  
+          @media screen and (max-width: 767px) {
 
-    <nav class="navbar navbar-inverse">  
-    <div class="container-fluid">  
-    <div class="navbar-header">  
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">  
-    <span class="icon-bar"></span>  
-    <span class="icon-bar"></span>  
-    <span class="icon-bar"></span>   
+            .sidenav {
+              height: auto;
+              padding: 15px;
 
-      </button>  
-    </div>  
+            }
 
-       <div class="collapse navbar-collapse" id="myNavbar">  
-    <ul class="nav navbar-nav">  
-    </ul>  
-    <ul class="nav navbar-nav navbar-right">  
-    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> </a></li>  
-    </ul>  
-    </div>  
-    </div>  
-    </nav>  
+            .row.content {
+              height: auto;
+            }
 
-      <div class="col-sm-8 text-left">   
-    <h1>Alex</h1>  
+       
+          button {
+            border: none;
+            color: Red;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
 
-    <p></p>  
-    <h3>About me</h3>  
-    <p> My Name Is Alex</p>   
-    <p>My grade is 11th, i study at <a href="https://miamisouthridgeshs.com/">miami southridge</a></p>  
-    <p>My instagram is <a href="https://instagram/youlove.alex.com/">@youlove.alex </a></p> 
-      <p id="paragraphs"></p>  
-      <button onclick =reveal()>  
-     Learn more  
-      </button>  
-    </div>  
-     <footer>  
-       <p>Contact me</p>  
-    <p><a href="0524413@dadeschools.net"></a></p>  
-     </footer>  
-    <script>  
-    function display() {  
-      document.getElementById("yurr").innerHTML = "";  
-    }  
-    </script>
-    <picture>  
-      <source srcset="364-3640734_snapchat-bitmoji-boy-hd-png-download" type="image/svg+xml">  
-      <img src="364-3640734_snapchat-bitmoji-boy-hd-png-download" class="img-fluid img-thumbnail" alt="...">  
-    </picture> 
-    </body>  
-    </html>  
+        </style>
+      </head>
+
+      <body>
+
+        <nav class="navbar navbar-inverse">
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+
+            </ul>
+          </div>
+
+        </nav>
+
+<main role=“main” class=“container”>
+
+        <picture>
+          <source srcset="364-3640734_snapchat-bitmoji-boy-hd-png-download" type="image/svg+xml">
+          <img src="364-3640734_snapchat-bitmoji-boy-hd-png-download" class="img-fluid img-thumbnail" alt="...">
+        </picture>
+
+
+        <h1>Alex</h1>
+
+        <p></p>
+        <h3>About me</h3>
+        <p> My Name Is Alex</p>
+        <p>My grade is 11th, i study at <a href="https://miamisouthridgeshs.com/">miami southridge</a></p>
+        <p>My instagram is <a href="https://instagram/youlove.alex.com/">@youlove.alex </a></p>
+        <p id="paragraphs"></p>
+        <button onclick=reveal()>
+          Learn more
+        </button>
+        </main>
+   
+
+        <script>
+          function display() {
+            document.getElementById("yurr").innerHTML = "";
+          }
+
+        </script>
+      </body>
+      
+    </html>
+
